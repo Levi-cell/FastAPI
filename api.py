@@ -6,9 +6,6 @@ from fastapi import FastAPI, status
 from pydantic import BaseModel
 from calculadora import minha_calculadora
 
-
-
-
 app = FastAPI(title="Calculadora", version="1.0.0")
 
 """Não é obrigatório utilizar a lib status apenas
